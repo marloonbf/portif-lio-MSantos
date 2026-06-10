@@ -1,0 +1,13 @@
+.project-card {
+    background: $card-color;
+    border: 1px solid rgba(161, 0, 255, .25);
+    border-radius: 20px;
+  
+    h3 {
+      color: $primary-color;
+    }
+  
+    span {
+      color: $secondary-color;
+    }
+  }

@@ -1,0 +1,17 @@
+{
+    "name": "marlon-portfolio-dev",
+    "version": "1.0.0",
+    "description": "Portfólio profissional com HTML, CSS, JavaScript, SASS, LESS, Gulp, Grunt e Power BI.",
+    "main": "index.html",
+    "author": "Marlon Santos",
+    "scripts": {
+      "sass": "sass sass/main.scss css/main.css",
+      "gulp": "gulp",
+      "grunt": "grunt"
+    },
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "grunt": "^1.6.1",
+      "sass": "^1.69.0"
+    }
+  }

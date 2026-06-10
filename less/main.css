@@ -1,0 +1,9 @@
+.button-less {
+  background: #a100ff;
+  color: white;
+  border-radius: 8px;
+}
+.card-less {
+  background: #050505;
+  border: 1px solid #00c2ff;
+}

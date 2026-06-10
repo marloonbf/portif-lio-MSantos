@@ -1,0 +1,23 @@
+@media (max-width:1100px){
+    .hero-content{flex-direction:column;text-align:center}
+    .about{grid-template-columns:1fr;text-align:center}
+    .about-text h2{text-align:center}
+    .about-text h2::after{margin:16px auto 0}
+    .skills-grid,.power-grid,.diferencial-grid{grid-template-columns:repeat(2,1fr)}
+    .projects-grid{grid-template-columns:1fr}
+    .education-grid{grid-template-columns:1fr}
+    .roadmap-grid{grid-template-columns:repeat(2,1fr)}
+  }
+  
+  @media (max-width:768px){
+    #btn-menu{display:block}
+    .menu{display:none;position:absolute;top:80px;right:8%;background:#050505;border:1px solid #a100ff;border-radius:12px;padding:24px;flex-direction:column}
+    .menu.active{display:flex}
+    .hero h1{font-size:42px}
+    .hero h1 span{font-size:50px}
+    .hero-image{width:300px}
+    .buttons{flex-direction:column}
+    .skills-grid,.power-grid,.diferencial-grid,.roadmap-grid{grid-template-columns:1fr}
+    .section h2{font-size:36px}
+    .learning-roadmap{padding:26px 20px}
+  }

@@ -1,0 +1,9 @@
+@import "variables";
+@import "header";
+@import "skills";
+@import "projects";
+
+body {
+  background: $dark-color;
+  color: $text-color;
+}
