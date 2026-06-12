@@ -21,3 +21,12 @@
     .section h2{font-size:36px}
     .learning-roadmap{padding:26px 20px}
   }
+  @media (max-width: 768px) {
+    .about-img {
+      display: none;
+    }
+  
+    .about {
+      padding-top: 60px;
+    }
+  }
